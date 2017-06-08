@@ -73,7 +73,7 @@ String strCodigo =null;
 
 	try {
 
-/*	
+/*	REVISAR ESTA SELECT
 SELECT distinct(CTR_Concurso_Traslados_Puestos.desc_puesto), CTR_Concurso_Traslados_Mapeos.codigo_puesto FROM CTR_Concurso_Traslados_Ofertas INNER JOIN  CTR_Concurso_Traslados_Puestos ON CTR_Concurso_Traslados_Ofertas.TIPO_UNIDAD = CTR_Concurso_Traslados_Puestos.tipoUnidad INNER JOIN CTR_Concurso_Traslados_Mapeos ON CTR_Concurso_Traslados_Puestos.id_puesto = CTR_Concurso_Traslados_Mapeos.id_puesto WHERE (Provincia = @Provincia) AND (Localidad_INE = @Localidad) AND (Unidad = @unidad) AND (CTR_Concurso_Traslados_Mapeos.visible_todos <> @FiltroPuestos) ORDER BY desc_puesto
 */
 
