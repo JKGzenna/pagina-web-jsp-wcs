@@ -83,7 +83,7 @@ String wctr_puesto = (ics.GetVar("ctr_puesto") != null) ? ics.GetVar("ctr_puesto
 //--------------------------------------------------------
 // 	esto es para hacer pruebas, antes de preparar la 
 //	recarga automática de de cada combo en funcion de
-//  la anterior.
+//  la anterior. no se puede usar AJAX en este proyecto
 
 wctr_provincia="7"; 
 wctr_localidad="E.R. DE VITORIA-GASTEIZ"; 
